@@ -1,0 +1,32 @@
+base_url = "https://edu-blog.araruna.science"
+
+title = "Educação e Inserção Profissional em Computação"
+description = "Blog sobre Educação e Inserção Profissional em Computação do Prof. Arthur Araruna"
+
+default_language = "pt"
+
+# theme = "kodama-theme"
+compile_sass = false
+minify_html = true
+
+build_search_index = true
+generate_feed = true
+
+[markdown]
+highlight_code = true
+smart_punctuation = true
+
+external_links_target_blank = true
+external_links_no_follow = true
+
+[extra]
+# Based on what is found on https://github.com/getzola/even/
+katex_enable = false
+katex_auto_render = false
+
+# Kodama Theme configs
+email = "ararunaufc@gmail.com"
+avatar = "static/img/Eu.jpg"
+favicon = "static/img/Eu.jpg"
+
+menu_items = []
